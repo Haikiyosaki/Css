@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>menu_ngang</title>
+    </head>
+    <style>
+        *{
+            font-family: arial;
+            padding: 0;
+            margin: 0;
+        }
+        #menu{
+            height: 30px;
+            padding: 0;
+            margin: 0;
+            background-color: #000000;
+            border: 1px solid #cdcdcd;
+        }
+        #menu li{
+            list-style: none;
+            position: relative;
+            float: left;
+            margin: 0;
+            padding: 0;
+        }
+        #menu li a{
+            width: 210px;
+            border-right: 1px solid #ccc;
+            height: 30px;
+            display: block;
+            text-decoration: none;
+            text-align: center;
+            line-height: 30px;
+            background-color: black;
+            color: white;
+        }
+        #menu li:hover a{
+            background-color: red;
+        }
+        #menu ul ul{
+            position: absolute;
+            top: 30px;
+            visibility: hidden;
+        }
+        #menu ul ul li a{
+            width: 200px;
+            text-align: center;
+            padding-left: 10px;
+
+        }
+        #menu ul li:hover ul{
+            visibility: visible;
+        }
+    </style>
+    <body>
+        <div id="menu">
+            <ul>
+            <li>
+                <a href="#">MU</a>
+                <ul>
+                    <li>
+                        <a href="#">David de Gea</a>
+                    </li>
+                    <li>
+                        <a href="#">Maguire
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">CR7</a>
+                    </li>
+                    <li>
+                        <a href="#">M10</a>
+                    </li>
+                    <li>
+                        <a href="#">B9</a>
+                    </li>
+                </ul>
+            </li>
+            <li>
+                <a href="#">MC</a>
+                <ul>
+                    <li>
+                        <a href="#">Halland</a>
+                    </li>
+                    <li>
+                        <a href="#">mahrez</a>
+                    </li>
+                    <li>
+                        <a href="#">Bryner</a>
+                    </li>
+                    <li>
+                        <a href="#">Stefan</a>
+                    </li>
+                    <li>
+                        <a href="#">Sterling</a>
+                    </li>
+                </ul>
+            </li>
+            <li>
+                <a href="#">Arrsenal</a>
+            </li>
+            <li>
+                <a href="#">Chelsea</a>
+            </li>
+        </ul>
+        </div>
+    </body>
+</html>
