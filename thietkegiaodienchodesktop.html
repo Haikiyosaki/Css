@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Thietkegiaodienchodesktop</title>
+    </head>
+    <style>
+
+        header {
+            grid-area: header;
+            display: flex;
+            justify-content: space-between;
+            height: 50px;
+            gap: 30px;
+            align-items: center;
+
+
+        }
+
+        .header-left {
+            display: flex;
+            gap: 20px;
+
+        }
+        img {
+            margin-left: 50px;
+        }
+        button {
+            border-radius: 25px;
+            background-color: aqua;
+            margin-right: 30px;
+        }
+        main {
+            display: flex;
+            background-color: antiquewhite;
+            height: 500px;
+            text-align: center;
+        }
+        @media screen and(max-width: 600px) {
+            header {
+                flex-direction: column;
+            }
+            .header-left {
+                flex-direction: column;
+                width: 100%;
+
+            }
+            img {
+                margin-left: 0;
+                width: 100px;
+            }
+            button {}
+        }
+    </style>
+    <body>
+        <header>
+            <img src="/Vegist_UI/image/logo1.png" alt="">
+            <div class="header-left">
+                <a href="#">Home</a>
+                <a href="#">About</a>
+                <a href="#">Classes</a>
+                <a href="#">Teacher</a>
+                <a href="#">Picture</a>
+                <a href="#">Page</a>
+                <a href="#">Contact</a>
+            </div>
+            <div>
+                <button>join Class</button>
+            </div>
+        </header>
+        <main>
+            <section></section>
+        </main>
+
+    </body>
+</html>
